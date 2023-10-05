@@ -1,0 +1,35 @@
+body {
+    background-color: #fba4cc;
+}
+header {
+    color: white;
+    text-align: center;
+}
+#head-1:hover {
+    background-color: #fba4cc;
+    color: black;
+}
+.p-list {
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+#p-quote {
+    color: white;
+    text-align: center;
+    line-height: 50%;
+    font-size: 2em;
+}
+footer {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 0%;
+    text-align: center;
+}
