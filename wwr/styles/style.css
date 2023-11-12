@@ -243,8 +243,8 @@ footer .social img {
     transform: scale(1.1);
 }
 #img1 {
-    margin-top: 35%;
-    margin-bottom: 35%;
+    margin-top: 45%;
+    margin-bottom: 45%;
     grid-column: 1/2;
     grid-row: 1/2;   
 }
