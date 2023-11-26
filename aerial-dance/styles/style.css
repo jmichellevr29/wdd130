@@ -65,8 +65,8 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
 }
 .img-firstp {
-    width: 600px;
-    height: 850px;
+    width: 400px;
+    height: 650px;
     margin: 80px;
     border: 15px solid #C5BDE6;
 }
@@ -101,7 +101,7 @@ footer {
     background-color: #F5F2FF;
     color:#4D495A;
     padding: 30px 50px;
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
