@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora&display=swap');
+body {
+    background-color: white;
+    font-family: "Lora", serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: "Cinzel Decorative", serif;
+    margin: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    background-color: #F5F2FF;
+    align-items: center;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* This is the style for the nav */
+.logo {
+    width: 125px;
+    border-radius: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Cinzel Decorative", serif;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+    border-radius: 20px;
+}
+nav a:hover {
+    background-color: #4D495A;
+    color: #F5F2FF;
+}
+/* This style is for the content */
+
+#info1 h2 {
+    padding: 30px;
+    margin: 50px 50px 0;
+    background-color: #4D495A;
+    color: white;
+}
+#info1 p {
+    padding: 5%;
+    margin: 0 50px 50px;
+    text-align: justify;
+    line-height: 1.6;
+    background-color: #9887AB;
+}
+#content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.img-firstp {
+    width: 600px;
+    height: 850px;
+    margin: 80px;
+    border: 15px solid #C5BDE6;
+}
+#info2-aerial h2 {
+    background-color: #4D495A;
+    color: white;
+    margin: 50px 50px 0;
+    padding: 30px;
+}
+#info2-aerial p {
+    background-color: #C5BDE6;
+    margin: 0 50px;
+    padding: 50px;
+    text-align: justify;
+    line-height: 1.6;
+}
+#info3-aerial h2 {
+    background-color: #4D495A;
+    color: white;
+    margin: 50px 50px 0;
+    padding: 30px;
+}
+#info3-aerial p {
+    background-color: #C5BDE6;
+    margin: 0 50px;
+    padding: 50px;
+    text-align: justify;
+    line-height: 1.6;
+}
+/* This is the style for the footer */
+footer {
+    background-color: #F5F2FF;
+    color:#4D495A;
+    padding: 30px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Cinzel Decorative", serif;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a {
+    color: #4D495A;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #4D495A;
+}
+.social img {
+    width: 80px;
+}
