@@ -63,37 +63,46 @@ nav a:hover {
 #content-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0 30px;
 }
 .img-firstp {
-    width: 400px;
-    height: 650px;
+    max-width: 400px;
+    max-height: 650px;
+    justify-self: center;
+    box-sizing: border-box;
     margin: 80px;
     border: 15px solid #C5BDE6;
 }
+#info2-aerial {
+  margin: 50px 50px;
+  padding: 30px;
+  text-align: justify;
+}
+#info3-aerial {
+  margin: 50px 50px;
+  padding: 30px;
+  text-align: justify;
+}
 #info2-aerial h2 {
+    padding: 30px;
     background-color: #4D495A;
     color: white;
-    margin: 50px 50px 0;
-    padding: 30px;
 }
 #info2-aerial p {
     background-color: #C5BDE6;
-    margin: 0 50px;
-    padding: 50px;
-    text-align: justify;
+    margin: 0;
+    padding: 30px;
     line-height: 1.6;
 }
 #info3-aerial h2 {
+    padding: 30px;
     background-color: #4D495A;
     color: white;
-    margin: 50px 50px 0;
-    padding: 30px;
 }
 #info3-aerial p {
     background-color: #C5BDE6;
-    margin: 0 50px;
-    padding: 50px;
-    text-align: justify;
+    margin: 0;
+    padding: 30px;
     line-height: 1.6;
 }
 /* This is the style for the footer */
