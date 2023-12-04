@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-h2 {
+h1, h2 {
     font-family: "Cinzel Decorative", serif;
     margin: 0;
 }
@@ -129,4 +129,38 @@ footer a:hover {
 }
 .social img {
     width: 80px;
+}
+/* SECON PAGE STYLE */
+.title {
+    margin: 50px 15px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: #4D495A;
+    border-radius: 25px;
+}
+.img-2p {
+    display: block;
+    justify-self: center;
+    max-width: 500px;
+    max-height: 700px;
+    margin: 10%;
+    border: 15px solid #4D495A;
+}
+/* Grid page 2 */
+#testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.testimonial h2 {
+    margin: 80px 20px 0;
+    padding: 30px;
+    background-color: #9887AB;
+    border-radius: 10px 10px 0 0;
+}
+.testimonial p {
+    margin: 0 20px 80px;
+    padding: 80px;
+    background-color: #C5BDE6;
+    border-radius: 0 0 10px 10px;
 }
