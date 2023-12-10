@@ -164,3 +164,43 @@ footer a:hover {
     background-color: #C5BDE6;
     border-radius: 0 0 10px 10px;
 }
+/* THIRD PAGE STYLE */
+.image1 {
+    max-width: 1600px;
+    margin: 50px auto;
+    border: 25px solid#4D495A;
+    display: block;
+}
+#paragraph1 {
+    text-align: center;
+    margin: 100px 50px;
+    padding: 20px;
+    border: 10px solid #9887AB ;
+    background-color: #C5BDE6;
+}
+#info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.image2 {
+    display: inline;
+    max-width: 400px;
+    justify-self: center;
+    border: 25px solid#4D495A;
+}
+#contact-info {
+    justify-content: center;
+    margin: 300px 10px;
+}
+#contact-info h2 {
+    margin: 0 50px;
+    padding: 15px;
+    color: black;
+    border-radius: 10px 10px 0 0;
+    background-color: #9887AB;
+}
+#contact-info p {
+    margin: 0 50px;
+    padding: 20px;
+    background-color: #C5BDE6;
+}
